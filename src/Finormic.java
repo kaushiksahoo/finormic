@@ -5,7 +5,7 @@ public class Finormic {
 	public static void main(String[] args) {
 		String s = "back";
 		String t = "ad";
-		System.out.println(searchAnagrams(s, t));
+		System.out.println(searchAnagram(s, t));
 	}
 	
 	/**
@@ -25,7 +25,7 @@ public class Finormic {
 	 * @param t the string to whose anagrams have to be searched
 	 * @return true, if anagram is found in the string
 	 */
-	private static boolean searchAnagrams(String s, String t) {
+	private static boolean searchAnagram(String s, String t) {
 		int stringLen = s.length();
 		int anagramLen = t.length();
 		
